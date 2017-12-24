@@ -33,10 +33,16 @@ class StudentTestCase(LiveServerTestCase):
 		self.assertEqual(artist_input.get_attribute('placeholder'), 'i.e. Davis')
 		# He types in the name of his instrument and submits it. 
 		instrument_input.send_keys('saxophone')
-		self.browser.find_element_by_css_selector('form button').click()       
-		self.fail('Incomplete Test')
+		self.browser.find_element_by_css_selector('form button').click()
 		# He sees too many search results...  
-		# ...so he adds an artist to his search query and gets a more manageable list. 
+		# ...so he adds an artist to his search query and gets a more manageable list.
+		second_artist_input = self.browser.find_element_by_css_selector('input#jmad-artist')
+		second_artist_input.send_keys('Canonball Adderley')
+		self.browser.find_element_by_css_selector('form button').click() 
+		second_search_results = self.browser.find_elements_by_css_selector(
+			'.jmad-search-result')
+		self.assertEqual(len(second_search_results), 2)       
+		self.fail('Incomplete Test')
 		# He clicks on a search result. 
 		# The solo page has the title, artist and album for this particular solo. 
 		# He also sees the start time and end time of the solo.
