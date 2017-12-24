@@ -1,0 +1,76 @@
+1514007665679	geckodriver	INFO	geckodriver 0.19.1
+1514007665685	geckodriver	INFO	Listening on 127.0.0.1:51000
+1514007671857	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.F6lLR2N0w2Xa"
+1514007674214	Marionette	INFO	Listening on port 51010
+2017-12-23 05:41:14.559 plugin-container[896:228614] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x933b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514007674924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514007674981	Marionette	DEBUG	loaded listener.js
+1514007741809	geckodriver	INFO	geckodriver 0.19.1
+1514007741815	geckodriver	INFO	Listening on 127.0.0.1:51037
+1514007747915	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.8gzeNKtuzrtN"
+1514007750325	Marionette	INFO	Listening on port 51047
+2017-12-23 05:42:30.756 plugin-container[903:230585] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514007750963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514007751011	Marionette	DEBUG	loaded listener.js
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1514007762016	Marionette	INFO	Ceased listening
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1514007767647	Marionette	INFO	Ceased listening
+1514007871523	geckodriver	INFO	geckodriver 0.19.1
+1514007871528	geckodriver	INFO	Listening on 127.0.0.1:51069
+1514007877688	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.SjXkyeRGZ3MS"
+1514007879916	Marionette	INFO	Listening on port 51079
+2017-12-23 05:44:40.256 plugin-container[910:233223] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514007880726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514007880769	Marionette	DEBUG	loaded listener.js
+1514007880789	Marionette	INFO	New connections will no longer be accepted
+1514008092660	geckodriver	INFO	geckodriver 0.19.1
+1514008092665	geckodriver	INFO	Listening on 127.0.0.1:51097
+1514008098814	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.lYI3jsejvvL0"
+1514008101169	Marionette	INFO	Listening on port 51107
+2017-12-23 05:48:21.609 plugin-container[916:236521] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x923b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514008101841	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514008101889	Marionette	DEBUG	loaded listener.js
+1514008101918	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514008102206	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514008102207	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514008102227	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51096/"
+1514008102230	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51096/"
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1514008133640	Marionette	INFO	Ceased listening
+1514008138111	geckodriver	INFO	geckodriver 0.19.1
+1514008138121	geckodriver	INFO	Listening on 127.0.0.1:51133
+1514008144251	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.MwCSVnUf3RLU"
+1514008146566	Marionette	INFO	Listening on port 51143
+2017-12-23 05:49:06.912 plugin-container[922:237714] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514008147277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514008147324	Marionette	DEBUG	loaded listener.js
+1514008147349	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514008147645	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514008147646	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514008147653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51132/"
+1514008147663	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51132/"
+1514008147703	Marionette	INFO	New connections will no longer be accepted
+1514085345950	geckodriver	INFO	geckodriver 0.19.1
+1514085345963	geckodriver	INFO	Listening on 127.0.0.1:50017
+1514085352088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.y8DkeBVOYIq7"
+1514085354804	Marionette	INFO	Listening on port 50027
+1514085355156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1514085355237	Marionette	DEBUG	loaded listener.js
+2017-12-24 03:15:55.271 plugin-container[642:19908] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1514085355293	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1514085355573	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1514085355573	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1514085355581	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50016/"
+1514085355593	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50016/"
+1514085357666	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
