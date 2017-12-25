@@ -20,4 +20,5 @@ from solos import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('solos/<pk>/', views.SoloDetailView.as_view())
 ]
