@@ -20,6 +20,6 @@ from solos import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('recordings/<album>/<track>/<artist>/', views.SoloDetailView.as_view(),
+    path('recordings/<album>/<track>/<artist>/', views.solo_detail,
         name='solo_detail_view'),
 ]
