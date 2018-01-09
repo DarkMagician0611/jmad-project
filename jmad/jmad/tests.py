@@ -54,10 +54,12 @@ class StudentTestCase(LiveServerTestCase):
 		# Steve is a jazz student who would like to find more examples of solos so he can 
 		# improve his own improvisation. He visits the home page of JMAD.
 		home_page = self.browser.get(self.live_server_url + '/')
+
 		# He knows he's in the right place because he can see the name of the site 
 		# in the heading. 
 		brand_element = self.browser.find_element_by_css_selector('.navbar-brand')
 		self.assertEqual('JMAD', brand_element.text)
+
 		# He sees the inputs of the search form, including labels and placeholders. 
 		instrument_input = self.browser.find_element_by_css_selector('input#jmad-instrument')
 		self.assertIsNotNone(self.browser.find_element_by_css_selector
@@ -67,9 +69,11 @@ class StudentTestCase(LiveServerTestCase):
 		self.assertIsNotNone(self.browser.find_element_by_css_selector
 			('label[for="jmad-artist"]'))
 		self.assertEqual(artist_input.get_attribute('placeholder'), 'i.e. Davis')
+
 		# He types in the name of his instrument and submits it. 
 		instrument_input.send_keys('saxophone')
 		self.browser.find_element_by_css_selector('form button').click()
+
 		# He sees too many search results...  
 		# ...so he adds an artist to his search query and gets a more manageable list.
 		second_artist_input = self.browser.find_element_by_css_selector('input#jmad-artist')
@@ -77,23 +81,43 @@ class StudentTestCase(LiveServerTestCase):
 		self.browser.find_element_by_css_selector('form button').click() 
 		second_search_results = self.find_search_results()
 		self.assertEqual(len(second_search_results), 2)
+
 		# He clicks on a search result.
-		second_search_results[0].click()       
+		second_search_results[0].click() 
+
 		# On the solo page...
 		self.assertEqual(self.browser.current_url, 
 			self.live_server_url + 
 			'/recordings/kind-of-blue/all-blues/canonball-adderley/')
+
 		# he sees the artist...
 		self.assertEqual(self.browser.find_element_by_css_selector(
 			'#jmad-artist').text, 'Canonball Adderley')
+
 		# the track title (with a count of solos)...
 		self.assertEqual(self.browser.find_element_by_css_selector(
 			'#jmad-track').text, 'All Blues [2 solos]')
+
 		# and the album title (with track count) for this solo.
 		self.assertEqual(self.browser.find_element_by_css_selector(
 			'#jmad-album').text, 'Kind of Blue [3 tracks]')
+
 		# He also sees the start time and end time of the solo.
 		self.assertEqual(self.browser.find_element_by_css_selector(
 			'#jmad-start-time').text, '2:06')
 		self.assertEqual(self.browser.find_element_by_css_selector(
 			'#jmad-end-time').text, '4:01')
+
+	def test_staff_can_add_content(self):
+		"""
+		Tests that a 'staff' user can access the admin and add Albums, Tracks, and Solos
+		"""
+		# Bill would like to add a record and a number of solos to JMAD. He visits the admin site
+		admin_root = self.browser.get(self.live_server_url + '/admin/')
+
+		# He can tell he's in the right place because of the title of the page
+		self.assertEqual(self.browser.title, 'Log in | Django site admin')
+		self.fail('Incomplete Test')
+
+
+    	
