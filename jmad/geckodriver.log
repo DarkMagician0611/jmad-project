@@ -2199,3 +2199,217 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1515523469589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53760/recordings/kind-of-blue/all-blues/canonball-adderley/"
 1515523469593	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53760/recordings/kind-of-blue/all-blues/canonball-adderley/"
 1515523469758	Marionette	INFO	New connections will no longer be accepted
+1515524056465	geckodriver	INFO	geckodriver 0.19.1
+1515524056475	geckodriver	INFO	Listening on 127.0.0.1:53949
+1515524056717	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.fTEoblkNFPMc"
+1515524059362	Marionette	INFO	Listening on port 53953
+2018-01-09 18:54:19.706 plugin-container[1177:373628] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x922b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524061192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524061245	Marionette	DEBUG	loaded listener.js
+1515524061417	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524061494	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524061495	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524061529	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/admin/login/?next=/admin/"
+1515524061635	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/admin/login/?next=/admin/"
+1515524061826	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:53948/admin/login/?next=/admin/"
+1515524062004	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:53948/admin/login/?next=/admin/"
+1515524062005	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:53948/admin/login/?next=/admin/"
+1515524062013	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/admin/"
+1515524062060	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/admin/"
+1515524062205	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:53948/admin/"
+1515524062253	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:53948/admin/"
+1515524062253	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:53948/admin/"
+1515524062394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/admin/albums/album/"
+1515524062400	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/admin/albums/album/"
+1515524064424	Marionette	INFO	New connections will no longer be accepted
+1515524064629	geckodriver	INFO	geckodriver 0.19.1
+1515524064634	geckodriver	INFO	Listening on 127.0.0.1:54021
+1515524064831	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.du5WiUcvPxOx"
+1515524067216	Marionette	INFO	Listening on port 54025
+2018-01-09 18:54:27.539 plugin-container[1180:374257] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524069306	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524069349	Marionette	DEBUG	loaded listener.js
+1515524069502	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524069519	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524069520	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524069527	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/"
+1515524069550	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/"
+1515524069774	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:53948/"
+1515524069802	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:53948/"
+1515524069803	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:53948/"
+1515524069811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/?instrument=saxophone&artist="
+1515524069816	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/?instrument=saxophone&artist="
+1515524069943	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:53948/?instrument=saxophone&artist="
+1515524069956	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:53948/?instrument=saxophone&artist="
+1515524069957	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:53948/?instrument=saxophone&artist="
+1515524069965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/?instrument=&artist=Canonball+Adderley"
+1515524069969	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/?instrument=&artist=Canonball+Adderley"
+1515524070050	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:53948/?instrument=&artist=Canonball+Adderley"
+1515524070066	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:53948/?instrument=&artist=Canonball+Adderley"
+1515524070067	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:53948/?instrument=&artist=Canonball+Adderley"
+1515524070076	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:53948/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524070080	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:53948/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524070221	Marionette	INFO	New connections will no longer be accepted
+1515524169475	geckodriver	INFO	geckodriver 0.19.1
+1515524169480	geckodriver	INFO	Listening on 127.0.0.1:54087
+1515524169685	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.GDjgoe7Gchif"
+1515524171787	Marionette	INFO	Listening on port 54091
+1515524171927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524172096	Marionette	DEBUG	loaded listener.js
+2018-01-09 18:56:12.170 plugin-container[1186:375541] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524172283	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524172366	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524172366	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524172401	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/admin/login/?next=/admin/"
+1515524172496	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/admin/login/?next=/admin/"
+1515524172689	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54086/admin/login/?next=/admin/"
+1515524172905	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54086/admin/login/?next=/admin/"
+1515524172905	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54086/admin/login/?next=/admin/"
+1515524172915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/admin/"
+1515524172985	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/admin/"
+1515524173129	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54086/admin/"
+1515524173176	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54086/admin/"
+1515524173177	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54086/admin/"
+1515524173311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/admin/albums/album/"
+1515524173317	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/admin/albums/album/"
+1515524173340	Marionette	INFO	New connections will no longer be accepted
+1515524173516	geckodriver	INFO	geckodriver 0.19.1
+1515524173525	geckodriver	INFO	Listening on 127.0.0.1:54154
+1515524173714	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.c08EmvgABSBq"
+1515524175847	Marionette	INFO	Listening on port 54158
+1515524175955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524176155	Marionette	DEBUG	loaded listener.js
+2018-01-09 18:56:16.240 plugin-container[1189:376138] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524176343	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524176358	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524176359	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524176365	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/"
+1515524176390	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/"
+1515524176616	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54086/"
+1515524176645	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54086/"
+1515524176646	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54086/"
+1515524176653	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/?instrument=saxophone&artist="
+1515524176657	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/?instrument=saxophone&artist="
+1515524176785	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54086/?instrument=saxophone&artist="
+1515524176799	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54086/?instrument=saxophone&artist="
+1515524176799	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54086/?instrument=saxophone&artist="
+1515524176807	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/?instrument=&artist=Canonball+Adderley"
+1515524176812	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/?instrument=&artist=Canonball+Adderley"
+1515524176873	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54086/?instrument=&artist=Canonball+Adderley"
+1515524176886	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54086/?instrument=&artist=Canonball+Adderley"
+1515524176886	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54086/?instrument=&artist=Canonball+Adderley"
+1515524176893	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54086/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524176896	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54086/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524177021	Marionette	INFO	New connections will no longer be accepted
+1515524199257	geckodriver	INFO	geckodriver 0.19.1
+1515524199262	geckodriver	INFO	Listening on 127.0.0.1:54210
+1515524199477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.OdopDsuq3oAP"
+1515524201644	Marionette	INFO	Listening on port 54214
+1515524201735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524201952	Marionette	DEBUG	loaded listener.js
+2018-01-09 18:56:42.043 plugin-container[1195:376873] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524202156	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524202245	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524202245	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524202281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/admin/login/?next=/admin/"
+1515524202377	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/admin/login/?next=/admin/"
+1515524202569	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54209/admin/login/?next=/admin/"
+1515524202747	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54209/admin/login/?next=/admin/"
+1515524202748	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54209/admin/login/?next=/admin/"
+1515524202756	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/admin/"
+1515524202812	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/admin/"
+1515524202943	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54209/admin/"
+1515524202988	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54209/admin/"
+1515524202989	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54209/admin/"
+1515524203125	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/admin/albums/album/"
+1515524203130	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/admin/albums/album/"
+1515524203180	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1515524203357	geckodriver	INFO	geckodriver 0.19.1
+1515524203365	geckodriver	INFO	Listening on 127.0.0.1:54277
+1515524203559	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.cuZFQWveSJyY"
+1515524205747	Marionette	INFO	Listening on port 54281
+1515524205815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524206051	Marionette	DEBUG	loaded listener.js
+2018-01-09 18:56:46.136 plugin-container[1198:377452] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9237, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524206237	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524206254	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524206254	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524206260	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/"
+1515524206281	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/"
+1515524206507	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54209/"
+1515524206534	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54209/"
+1515524206534	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54209/"
+1515524206541	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/?instrument=saxophone&artist="
+1515524206546	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/?instrument=saxophone&artist="
+1515524206669	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54209/?instrument=saxophone&artist="
+1515524206683	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54209/?instrument=saxophone&artist="
+1515524206683	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54209/?instrument=saxophone&artist="
+1515524206690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/?instrument=&artist=Canonball+Adderley"
+1515524206695	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/?instrument=&artist=Canonball+Adderley"
+1515524206756	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54209/?instrument=&artist=Canonball+Adderley"
+1515524206769	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54209/?instrument=&artist=Canonball+Adderley"
+1515524206769	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54209/?instrument=&artist=Canonball+Adderley"
+1515524206777	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54209/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524206780	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54209/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524206910	Marionette	INFO	New connections will no longer be accepted
+1515524350116	geckodriver	INFO	geckodriver 0.19.1
+1515524350122	geckodriver	INFO	Listening on 127.0.0.1:54336
+1515524350306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.ck5ildDFDDTR"
+1515524352337	Marionette	INFO	Listening on port 54340
+1515524352542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524352658	Marionette	DEBUG	loaded listener.js
+2018-01-09 18:59:12.727 plugin-container[1204:378911] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524352827	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524352895	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524352895	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524352930	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/admin/login/?next=/admin/"
+1515524353037	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/admin/login/?next=/admin/"
+1515524353255	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54335/admin/login/?next=/admin/"
+1515524353440	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54335/admin/login/?next=/admin/"
+1515524353440	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54335/admin/login/?next=/admin/"
+1515524353449	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/admin/"
+1515524353493	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/admin/"
+1515524353670	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54335/admin/"
+1515524353719	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54335/admin/"
+1515524353720	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54335/admin/"
+1515524353905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/admin/albums/album/"
+1515524353922	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/admin/albums/album/"
+1515524354012	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1515524354234	geckodriver	INFO	geckodriver 0.19.1
+1515524354242	geckodriver	INFO	Listening on 127.0.0.1:54409
+1515524354498	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/8h/tq7d7rls7ql2f3yg4b066qx00000gn/T/rust_mozprofile.hulNjYzt5Azo"
+1515524356974	Marionette	INFO	Listening on port 54413
+2018-01-09 18:59:17.342 plugin-container[1207:379559] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1515524358979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515524359035	Marionette	DEBUG	loaded listener.js
+1515524359199	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515524359216	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515524359217	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515524359225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/"
+1515524359249	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/"
+1515524359509	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54335/"
+1515524359538	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54335/"
+1515524359538	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54335/"
+1515524359547	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/?instrument=saxophone&artist="
+1515524359554	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/?instrument=saxophone&artist="
+1515524359702	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54335/?instrument=saxophone&artist="
+1515524359717	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54335/?instrument=saxophone&artist="
+1515524359717	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54335/?instrument=saxophone&artist="
+1515524359729	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/?instrument=&artist=Canonball+Adderley"
+1515524359732	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/?instrument=&artist=Canonball+Adderley"
+1515524359828	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:54335/?instrument=&artist=Canonball+Adderley"
+1515524359845	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:54335/?instrument=&artist=Canonball+Adderley"
+1515524359845	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:54335/?instrument=&artist=Canonball+Adderley"
+1515524359855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:54335/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524359859	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:54335/recordings/kind-of-blue/all-blues/canonball-adderley/"
+1515524360022	Marionette	INFO	New connections will no longer be accepted

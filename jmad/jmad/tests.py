@@ -144,4 +144,13 @@ class StudentTestCase(LiveServerTestCase):
 			self.live_server_url + '/admin/solos/')
 		self.assertEqual(solos_links[1].get_attribute('href'),
 			self.live_server_url + '/admin/solos/solo/')
+
+		# He clicks on Albums and sees all of the Albums that have been added so far
+		albums_links[1].click()
+		self.assertEqual(self.browser.find_element_by_link_text('Know What I Mean?').get_attribute('href'),
+			self.live_server_url + '/admin/albums/album/3/change/')
+		self.assertEqual(self.browser.find_element_by_link_text('Kind of Blue').get_attribute('href'),
+			self.live_server_url + '/admin/albums/album/2/change/')
+		self.assertEqual(self.browser.find_element_by_link_text('My Favorite Things').get_attribute('href'),
+			self.live_server_url + '/admin/albums/album/1/change/')
 		self.fail('Incomplete Test')
