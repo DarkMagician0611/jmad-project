@@ -1,5 +1,6 @@
 #import pdb; pdb.set_trace()
 from django.test import LiveServerTestCase
+from django.contrib.auth import get_user_model
 
 from selenium import webdriver
 from solos.models import Solo
@@ -10,6 +11,11 @@ class StudentTestCase(LiveServerTestCase):
 	def setUp(self):
 		self.browser = webdriver.Firefox()
 		self.browser.implicitly_wait(2)
+
+		self.admin_user = get_user_model().objects.create_superuser(
+			username='shubham',
+			email='shubhC.6@gmail.com',
+			password='xlr8rocks')
 
 		self.album1 = Album.objects.create(
 			name='My Favorite Things', slug='my-favorite-things')
@@ -117,7 +123,25 @@ class StudentTestCase(LiveServerTestCase):
 
 		# He can tell he's in the right place because of the title of the page
 		self.assertEqual(self.browser.title, 'Log in | Django site admin')
+
+		# He enters his username and password and submits the form to log in
+		login_form = self.browser.find_element_by_id('login-form')
+		login_form.find_element_by_name('username').send_keys('shubham')
+		login_form.find_element_by_name('password').send_keys('xlr8rocks')
+		login_form.find_element_by_css_selector('.submit-row input').click()
+
+		# He sees links to Albums, Tracks, and Solos
+		albums_links = self.browser.find_elements_by_link_text('Albums')
+		self.assertEqual(albums_links[0].get_attribute('href'),
+			self.live_server_url + '/admin/albums/')
+		self.assertEqual(albums_links[1].get_attribute('href'),
+			self.live_server_url + '/admin/albums/album/')
+		self.assertEqual(self.browser.find_element_by_link_text('Tracks').get_attribute('href'),
+			self.live_server_url + '/admin/albums/track/')
+
+		solos_links = self.browser.find_elements_by_link_text('Solos')
+		self.assertEqual(solos_links[0].get_attribute('href'),
+			self.live_server_url + '/admin/solos/')
+		self.assertEqual(solos_links[1].get_attribute('href'),
+			self.live_server_url + '/admin/solos/solo/')
 		self.fail('Incomplete Test')
-
-
-    	
